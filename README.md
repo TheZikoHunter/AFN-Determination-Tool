@@ -1,45 +1,61 @@
 # AFN Determination Tool 🔁
 
-A Java-based tool to convert a non-deterministic finite automaton (AFN) into a deterministic finite automaton (AFD), with a graphical interface built using Swing.
+Un outil Java permettant de convertir un automate fini non déterministe (AFN) en automate fini déterministe (AFD), avec une interface graphique développée en Swing.
+
+---
 
 ## 📘 Description
 
-This tool was developed as part of a compilation techniques project at INSEA. It implements the theoretical process of determinization, transforming an AFN into an equivalent AFD while preserving the accepted language.
+Ce projet a été réalisé dans le cadre d’un cours sur les techniques de compilation à l’INSEA. Il implémente le processus théorique de déterminisation, transformant un AFN en un AFD équivalent tout en conservant le langage accepté.
 
-## 🎯 Features
+---
 
-- Define custom states, transitions, initial and final states
-- Visual interface for creating and managing automata
-- Support for non-deterministic transitions
-- Automatic determinization algorithm
-- Acceptance verification for input strings
+## 🎯 Fonctionnalités
 
-## 🧠 Theory Behind
+- Définition personnalisée des états, transitions, états initiaux et finaux  
+- Interface visuelle interactive pour la création et la gestion des automates  
+- Support des transitions non déterministes  
+- Algorithme automatique de déterminisation par construction des sous-ensembles  
+- Vérification de l’acceptation des chaînes d’entrée  
 
-The tool is based on formal automata theory, and uses a composite state construction method to determinize AFNs:
-- Composite state generation
-- Transition set union
-- Final state inference
+---
+
+## 🧠 Théorie sous-jacente
+
+L’outil s’appuie sur la théorie formelle des automates, utilisant la méthode de construction d’états composites pour la déterminisation des AFN :  
+- Génération des états composés  
+- Union des ensembles de transitions  
+- Identification des états finaux  
+
+---
 
 ## 🛠️ Technologies
 
-- Java (Core + Swing)
-- Object-Oriented Programming
-- Custom data structures (HashMaps, HashSets)
+- Java (Core et Swing)  
+- Programmation orientée objet (POO)  
+- Structures de données personnalisées (HashMap, HashSet)  
 
-## 📷 Screenshots
+---
 
-![Main interface](acceuil.png)
-![Transition setup](transitions.png)
+## 📷 Captures d’écran
 
-## 📚 Academic Context
+![Interface principale](acceuil.png)  
+![Configuration des transitions](transitions.png)  
 
-- Developed by: Zakaria Douih & Abderrahmane Nait-El-Haj
-- Supervised by: Mr. Adil Kabbaj
-- Institution: INSEA – Department of Software & Data Engineering
-- Date: January 2025
+---
 
-## 🚀 How to Run
+## 📚 Contexte académique
+
+- Développé par : Zakaria Douih & Abderrahmane Nait-El-Haj  
+- Encadrant : M. Adil Kabbaj  
+- Institut : INSEA – Département Génie Logiciel et Data  
+- Date : Janvier 2025  
+
+---
+
+## 🚀 Exécution
+
+Pour compiler et lancer l’application, utilisez les commandes suivantes dans votre terminal :  
 
 ```bash
 javac Automate.java
