@@ -1,16 +1,16 @@
-# AFN Determination Tool 🔁
+# AFN Determination Tool
 
 Un outil Java permettant de convertir un automate fini non déterministe (AFN) en automate fini déterministe (AFD), avec une interface graphique développée en Swing.
 
 ---
 
-## 📘 Description
+## Description
 
 Ce projet a été réalisé dans le cadre d’un cours sur les techniques de compilation à l’INSEA. Il implémente le processus théorique de déterminisation, transformant un AFN en un AFD équivalent tout en conservant le langage accepté.
 
 ---
 
-## 🎯 Fonctionnalités
+## Fonctionnalités
 
 - Définition personnalisée des états, transitions, états initiaux et finaux  
 - Interface visuelle interactive pour la création et la gestion des automates  
@@ -20,7 +20,7 @@ Ce projet a été réalisé dans le cadre d’un cours sur les techniques de com
 
 ---
 
-## 🧠 Théorie sous-jacente
+## Théorie sous-jacente
 
 L’outil s’appuie sur la théorie formelle des automates, utilisant la méthode de construction d’états composites pour la déterminisation des AFN :  
 - Génération des états composés  
@@ -29,7 +29,7 @@ L’outil s’appuie sur la théorie formelle des automates, utilisant la métho
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Java (Core et Swing)  
 - Programmation orientée objet (POO)  
@@ -37,14 +37,14 @@ L’outil s’appuie sur la théorie formelle des automates, utilisant la métho
 
 ---
 
-## 📷 Captures d’écran
+## Captures d’écran
 
 ![Interface principale](acceuil.png)  
 ![Configuration des transitions](transitions.png)  
 
 ---
 
-## 📚 Contexte académique
+## Contexte académique
 
 - Développé par : Zakaria Douih & Abderrahmane Nait-El-Haj  
 - Encadrant : M. Adil Kabbaj  
@@ -53,7 +53,7 @@ L’outil s’appuie sur la théorie formelle des automates, utilisant la métho
 
 ---
 
-## 🚀 Exécution
+## Exécution
 
 Pour compiler et lancer l’application, utilisez les commandes suivantes dans votre terminal :  
 
